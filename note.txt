@@ -1,0 +1,22 @@
+node -v
+npm -v
+#npm init -y
+ถ้าทำตาม step ไม่ได้ลง node ใหม่
+npm i express
+npm i express-generator #ตัวสร้างโปรเจคให้เป็น theme มาตรฐาน npm i -g express-generator
+ถ้า deprecate 
+npm uninstall -g express-generator
+
+express --view=ejs app #สร้าง โปรเจค
+cd app
+npm i mysql2
+npm i nodemon
+npx nodemon
+ไปที่ browser localhost:3000 ให้ listening 3000
+หรือ npx nodemon --port 5000 ให้ listening 5000
+ไปที่ browser localhost:5000
+ถ้า nodemon ช้า พิมพ์ rs เพื่อ restart
+
+https://getbootstrap.com/docs/5.0/forms/input-group/
+https://www.grepper.com/tpc/bootstrap+4+cdn
+https://codepen.io/mosbth/pen/qBEeJpg
