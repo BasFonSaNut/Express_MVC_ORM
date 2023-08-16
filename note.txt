@@ -1,3 +1,5 @@
+สำหรับผู้ที่จะสร้าง react-express โดยให้ express-generator module เป็นผู้ generate โครงสร้าง โปรเจคให้
+ทำตาม step ด้านล่าง
 node -v
 npm -v
 #npm init -y
@@ -15,8 +17,9 @@ npx nodemon
 ไปที่ browser localhost:3000 ให้ listening 3000
 หรือ npx nodemon --port 5000 ให้ listening 5000
 ไปที่ browser localhost:5000
-ถ้า nodemon ช้า พิมพ์ rs เพื่อ restart
+ถ้า nodemon ช้า พิมพ์ rs (ที่ commandline โดยไม่จำเป็นต้องหยุด service พิมพ์ไปเลย) เพื่อ restart
 
+Frontend ส่วยๆ ลองไปหาของเล่นดูเอา ถ้าเป็นสาวก ค่าย bootstrap
 https://getbootstrap.com/docs/5.0/forms/input-group/
 https://www.grepper.com/tpc/bootstrap+4+cdn
 https://codepen.io/mosbth/pen/qBEeJpg
